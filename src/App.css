@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.enlace{
+    @apply text-xl hover:text-blue-500 transition duration-500 hover:underline;
+
+}
+
+.boton{
+    @apply bg-amber-300 py-2 px-5 my-3 text-white rounded-full inline-block hover:bg-amber-600 transition duration-200;
+}
